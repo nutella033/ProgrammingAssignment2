@@ -1,10 +1,11 @@
 ## These two functions are used to create a special object
 ## that stores a matrix and caches its inverse.
 
-## This function creates the special matrix object as
-## a list contatining functions to set the value of the matrix,
-## get the value of the matrix, set the inverse of the matrix
-## and get the inverse of the matrix
+## This function creates the special matrix object that can cache
+## its inverse as a list contatining functions to set the value of 
+## the matrix, get the value of the matrix, set the inverse of the 
+## matrix and get the inverse of the matrix
+
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
